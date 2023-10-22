@@ -1,0 +1,70 @@
+/* Styling the form container */
+#survey-form {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  .one h1 {
+    text-align: center;
+    text-transform: uppercase;
+    padding-bottom: 5px;
+  }
+  .one h1:before {
+    width: 28px;
+    height: 5px;
+    display: block;
+    content: "";
+    position: absolute;
+    bottom: 3px;
+    left: 50%;
+    margin-left: -14px;
+    background-color: #b80000;
+  }
+  .one h1:after {
+    width: 100px;
+    height: 1px;
+    display: block;
+    content: "";
+    position: relative;
+    margin-top: 25px;
+    left: 50%;
+    margin-left: -50px;
+    background-color: #b80000;
+  }
+  
+}
+
+/* Style form groups */
+.form-group {
+  margin-bottom: 15px;
+}
+
+/* Style labels */
+label {
+  display: inline-block;
+  width: 150px;
+}
+
+/* Style submit button */
+input[type="submit"] {
+  background-color: #007BFF;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  cursor: pointer;
+}
+
+/* Added some animations */
+input[type="submit"]:hover {
+  background-color: #0056b3;
+  transform: scale(1.1);
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+
+body {
+   background-color: #DBF9FC; 
+  }
+
